@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCD0808.Programming.DictLam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{06A7ABD7-7341-41FD-8109-BB35E49E0F35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp", "SimpleApp\SimpleApp.csproj", "{412D1D14-56E0-42D4-BFD8-9F4B6DDE973A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{06A7ABD7-7341-41FD-8109-BB35E49E0F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06A7ABD7-7341-41FD-8109-BB35E49E0F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06A7ABD7-7341-41FD-8109-BB35E49E0F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412D1D14-56E0-42D4-BFD8-9F4B6DDE973A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412D1D14-56E0-42D4-BFD8-9F4B6DDE973A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412D1D14-56E0-42D4-BFD8-9F4B6DDE973A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412D1D14-56E0-42D4-BFD8-9F4B6DDE973A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
