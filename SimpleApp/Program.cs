@@ -24,6 +24,36 @@ namespace SimpleApp
 
 			UI.ShowBatchInfo(batch);
 
+			UI.ShowMenuControl();
+			var option = UI.EnterOption();
+
+			switch (option)
+			{
+				case 1:
+					studentId = UI.EnterStudentId();
+
+					fullName = UI.EnterStudentFullName();
+
+					age = UI.EnterStudentAge();
+					batch.Add(new Student(studentId, fullName, age));
+					break;
+				case 2:
+					studentId = UI.EnterStudentId();
+					if (batch.FindStudentById(studentId) != null)
+						UI.ShowStudentInfo(batch.FindStudentById(studentId));
+					else
+						Console.WriteLine("Student not found");
+					break;
+				case 3:
+					// Todo
+					break;
+				case 4:
+					// Todo
+					break;
+				case 5:
+					break;
+			}
+
 			Console.ReadLine();
 		}
 	}
