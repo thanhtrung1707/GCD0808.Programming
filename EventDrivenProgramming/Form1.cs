@@ -23,7 +23,6 @@ namespace EventDrivenProgramming
 			Result.Text = "N/A";
 			FirstNumber.Text = "0";
 			SecondNumber.Text = "0";
-
 		}
 	}
 }
